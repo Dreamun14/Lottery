@@ -9,4 +9,6 @@ pickednumber = input("Please enter a number :> ")
 winningnumber = random.randrange(1, 20)
 # 3 chances (3 lives)
 # Does the winning number your number, if it does, then you win, else you lose
-# show the winning number if you lose
+# show the winning number
+print(f"Thank your for playing, the winning number was {winningnumber}")
+input("Press any key to exit")
