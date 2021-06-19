@@ -11,7 +11,7 @@ while lives > 0:
     lives = lives - 1
     # Input a number from 1-10
     print('-----------')
-    pickednumber = input("Please enter a number :> ")
+    pickednumber = int(input("Please enter a number :> "))
     # Generate a random number from 1-10(hidden)
     winningnumber = random.randrange(1, 10)
     # 3 chances (3 lives)
@@ -23,6 +23,6 @@ while lives > 0:
     else:
         print('I\'m sorry, luck was not on your side today...')
     # show the winning number
-    print(f"Thank your for playing, the winning number was {winningnumber}")
+    print(f"Thank your for playing, the winning number was {winningnumber} and the number you picked was {pickednumber}")
     input("Press any key to continue")
     print('')
